@@ -80,18 +80,23 @@ button.submit {
   padding: 12px 14px;
   width: 240px;
   -webkit-transition: 0.25s all ease-in;
+  -moz-transition: 0.25s all ease-in;
+  -ms-transition: 0.25s all ease-in;
+  -o-transition: 0.25s all ease-in;
   transition: 0.25s all ease-in;
 }
 button.submit:hover {
   opacity: 0.8;
   -webkit-transition: 0.25s all ease-out;
+  -moz-transition: 0.25s all ease-out;
+  -ms-transition: 0.25s all ease-out;
+  -o-transition: 0.25s all ease-out;
   transition: 0.25s all ease-out;
 }
 .quant-text {
   display: inline-block;
   text-align: center;
   width: 140px;
-  padding: 8px;
   padding: 8px;
 }
 .quantity {
