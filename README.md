@@ -25,7 +25,7 @@ bun install
 Update Node.js version
 
 ```sh
-npm use
+nvm use
 ```
 
 Start the development server on `http://localhost:3000`:
